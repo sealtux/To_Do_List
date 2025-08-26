@@ -19,3 +19,139 @@
   left: 0vw;
   border-right: 1px solid rgb(210, 209, 209);
 }
+.task{
+  position: absolute;
+  font-size: 20px;
+  left: 4vw;
+  top: 1vw;
+  font-family: "Inter", "Segoe UI",  Arial, sans-serif;
+  color: #424242;
+}
+
+.collab{
+   position: absolute;
+  font-size: 20px;
+  left: 4vw;
+   top: 10.02vw;
+  font-family: "Inter", "Segoe UI",  Arial, sans-serif;
+  color: #424242;
+}
+
+.todayimg {
+  position: absolute;  
+  filter: grayscale(100%) brightness(70%);
+    width: 1.5vw;
+    height: 1.5vw;
+    left: -1.7vw;
+    image-rendering: pixelated;
+  top:0.01vw;
+
+  
+}
+.today{
+  position: absolute;
+  font-size: 19px;
+  left: 5.7vw;
+  top: 4.01vw;
+    font-family: "Poppins", "Segoe UI", "Inter", Arial, sans-serif;
+   color: #757575;
+ 
+   font-weight: 500; 
+   border:transparent;
+    padding-right: 7vw;
+}
+.today:hover{
+  position: absolute;
+ 
+
+  
+  font-family: "Poppins", "Segoe UI", "Inter", Arial, sans-serif;
+  color: skyblue;
+  border: transparent;
+}
+.today:hover .todayimg {
+    filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+
+.upcomingimg{
+    position: absolute;  
+  filter: grayscale(100%) brightness(70%);
+    width: 1.5vw;
+    height: 1.5vw;
+    left: -1.7vw;
+    image-rendering: pixelated;
+  top:0.01vw;
+}
+.upcoming{
+   position: absolute;
+  font-size: 19px;
+  left: 5.7vw;
+  top: 6.21vw;
+    font-family: "Poppins", "Segoe UI", "Inter", Arial, sans-serif;
+   color: #757575;
+  border:transparent;
+   font-weight: 500; 
+    padding-right: 2.4vw; 
+}
+
+.upcoming:hover{
+  position: absolute;
+ 
+
+  
+  font-family: "Poppins", "Segoe UI", "Inter", Arial, sans-serif;
+  color: skyblue;
+  border: transparent;
+}
+.upcoming:hover .upcomingimg {
+    filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+
+
+.calendar{
+  position: absolute;
+  font-size: 19px;
+  left: 5.69vw;
+ 
+  top: 8.4vw;
+    font-family: "Poppins", "Segoe UI", "Inter", Arial, sans-serif;
+   color: #757575;
+ 
+   font-weight: 500; 
+   border:transparent;
+    padding-right: 7vw;
+}
+
+.calendarimg{
+    position: absolute;  
+  filter: grayscale(100%) brightness(70%);
+    width: 1.5vw;
+    height: 1.5vw;
+    left: -1.7vw;
+    image-rendering: pixelated;
+  top:0.01vw;
+}
+.calendar:hover {
+  position: absolute;
+ 
+
+  
+  font-family: "Poppins", "Segoe UI", "Inter", Arial, sans-serif;
+  color: skyblue;
+  border: transparent;
+}
+.calendar:hover .calendarimg {
+    filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+.popup{
+  position: absolute;
+  left: 15.5vw;
+   top: 11.15vw;
+   border:transparent;
+}
+.addfile{
+  position: absolute;
+  left: 13.5vw;
+   top: 11.15vw;
+   border:transparent;
+}
