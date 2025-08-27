@@ -23,6 +23,8 @@ function App() {
       <h1 className = "collab">Collaborator Tasks</h1>
       <button className="addfile"><img src={Add} className="Addimg "  /></button>
       <button className="popup"><img src = {arrowdown} className="arrowdownimg"></img></button>
+
+      <h1 className = "tags"> Highlights</h1>
       
     </div>
     </div>

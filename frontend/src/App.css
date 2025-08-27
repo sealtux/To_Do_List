@@ -146,12 +146,46 @@
 .popup{
   position: absolute;
   left: 15.5vw;
-   top: 11.15vw;
-   border:transparent;
+     top: 10.7vw;
+   width: 1.5vw;
+   height: 1.5vw;
+  
+   
 }
 .addfile{
   position: absolute;
   left: 13.5vw;
-   top: 11.15vw;
-   border:transparent;
+   top: 10.7vw;
+   width: 1.5vw;
+   height: 1.5vw;
+   
+}
+.Addimg{
+    position: absolute;  
+  filter: grayscale(100%) brightness(70%);
+   width: 0.9vw;
+    height: 0.8vw;
+    left: 0.22vw;
+   z-index: 2;
+    image-rendering: pixelated;
+   top: 0.25vw;
+ 
+}
+.arrowdownimg{
+    position: absolute;  
+  filter: grayscale(100%) brightness(70%);
+    width: 1vw;
+    height: 1vw;
+    left: 0.15vw;
+   z-index: 2;
+   top: 0.25vw;
+
+}
+.tags{
+ position: absolute;
+  font-size: 20px;
+  left: 4vw;
+  top: 32vw;
+  font-family: "Inter", "Segoe UI",  Arial, sans-serif;
+  color: #424242;
 }
